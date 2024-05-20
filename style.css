@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#heightSection{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#heightSection label h4{
+    margin: 1rem;
+}
+
+#height{
+    width: 80%;
+    height: 1.8rem;
+    outline: none;
+}
+
+#weightSection{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#weightSection label h4{
+    margin: 1rem;
+}
+
+#weight{
+    width: 80%;
+    height: 1.8rem;
+    outline: none;
+}
+
+#bmiButton{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    border: none;
+    width: 9rem;
+    height: 2.4rem;
+    border-radius: .5rem;
+    background-color: #007BFF;
+    font-size: 1.1rem;
+    color: white;
+}
+
+#bmiResult{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
